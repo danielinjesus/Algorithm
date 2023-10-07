@@ -10,4 +10,6 @@ class Solution(object):
             if num % 2 == 1:
                 num -= 1
                 step += 1
+            if num == 0:
+                break
         return(step)
