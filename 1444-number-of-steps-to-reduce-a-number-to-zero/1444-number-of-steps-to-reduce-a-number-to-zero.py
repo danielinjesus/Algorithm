@@ -7,4 +7,4 @@ class Solution(object):
             else:
                 num -= 1
             k += 1
-        return(k)
+        return k
