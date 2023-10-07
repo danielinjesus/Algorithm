@@ -6,7 +6,7 @@ class Solution(object):
                 break
             if num % 2 == 0:
                 num = num / 2
-                step += 1
+                step = step + 1
             if num % 2 == 1:
                 num -= 1
                 step += 1
